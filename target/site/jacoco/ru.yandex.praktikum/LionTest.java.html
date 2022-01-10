@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ru"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>LionTest.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">jacoco.exec</a> &gt; <a href="index.source.html" class="el_package">ru.yandex.praktikum</a> &gt; <span class="el_source">LionTest.java</span></div><h1>LionTest.java</h1><pre class="source lang-java linenums">package ru.yandex.praktikum;
+
+import com.example.Feline;
+import org.junit.Before;
+import org.junit.Test;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.mockito.MockitoAnnotations;
+
+
+
+import static org.junit.Assert.assertEquals;
+import static ru.yandex.praktikum.Animal.foodExpected;
+
+
+<span class="fc" id="L16">public class LionTest {</span>
+
+    @Before
+    public void init() {
+<span class="fc" id="L20">        MockitoAnnotations.initMocks(this);</span>
+<span class="fc" id="L21">    }</span>
+
+    @Mock
+    Feline feline;
+
+    @Test
+    public void getKittens() throws Exception {
+<span class="fc" id="L28">        Mockito.when(feline.getKittens()).thenReturn(2);</span>
+<span class="fc" id="L29">        assertEquals(2, feline.getKittens());</span>
+
+<span class="fc" id="L31">    }</span>
+
+    @Test
+    public void getFood() throws Exception {
+<span class="fc" id="L35">        Animal hungryLion = new Animal();</span>
+<span class="fc" id="L36">        assertEquals(foodExpected, hungryLion.getFood(&quot;Хищник&quot;));</span>
+<span class="fc" id="L37">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
