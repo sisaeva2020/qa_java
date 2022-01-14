@@ -1,12 +1,11 @@
-package ru.yandex.praktikum;
+package com.example;
 
-import com.example.Cat;
-import com.example.Feline;
 import org.junit.Test;
 
 
+import static com.example.Animal.foodExpected;
 import static org.junit.Assert.assertEquals;
-import static ru.yandex.praktikum.Animal.foodExpected;
+
 
 public class CatTest {
 

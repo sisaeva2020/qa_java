@@ -1,7 +1,5 @@
 package com.example;
 
-import ru.yandex.praktikum.Animal;
-
 import java.util.List;
 
 public class Feline extends Animal implements Predator {
@@ -16,11 +14,14 @@ public class Feline extends Animal implements Predator {
         return "Кошачьи";
     }
 
+    public Feline() {}
+
     public int getKittens() {
         return getKittens(1);
     }
 
     public int getKittens(int kittensCount) {
+
         return kittensCount;
     }
 

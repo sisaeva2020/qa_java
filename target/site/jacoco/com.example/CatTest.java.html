@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ru"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CatTest.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">jacoco.exec</a> &gt; <a href="index.source.html" class="el_package">com.example</a> &gt; <span class="el_source">CatTest.java</span></div><h1>CatTest.java</h1><pre class="source lang-java linenums">package com.example;
+
+import org.junit.Test;
+
+
+import static com.example.Animal.foodExpected;
+import static org.junit.Assert.assertEquals;
+
+
+<span class="fc" id="L10">public class CatTest {</span>
+
+    @Test
+    public void getSound() {
+<span class="fc" id="L14">        Feline feline = new Feline();</span>
+<span class="fc" id="L15">        Cat meoCat = new Cat(feline);</span>
+<span class="fc" id="L16">        assertEquals(&quot;Мяу&quot;, meoCat.getSound());</span>
+<span class="fc" id="L17">    }</span>
+
+    @Test
+    public void getFood() throws Exception {
+<span class="fc" id="L21">        Feline feline = new Feline();</span>
+<span class="fc" id="L22">        Cat hungryCat = new Cat(feline);</span>
+<span class="fc" id="L23">        assertEquals(foodExpected, hungryCat.getFood());</span>
+<span class="fc" id="L24">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

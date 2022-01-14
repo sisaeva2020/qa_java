@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: ru.yandex.praktikum.LionManeTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.036 sec <<< FAILURE!
-doesLionHasMane[2](ru.yandex.praktikum.LionManeTest)  Time elapsed: 0.019 sec  <<< ERROR!
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.035 sec <<< FAILURE!
+doesLionHasMane[2](ru.yandex.praktikum.LionManeTest)  Time elapsed: 0.018 sec  <<< ERROR!
 java.lang.Exception: Используйте допустимые значения пола животного - самец или самка
 	at com.example.Lion.<init>(Lion.java:15)
 	at ru.yandex.praktikum.LionManeTest.doesLionHasMane(LionManeTest.java:33)
