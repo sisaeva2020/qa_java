@@ -5,33 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14fca599-a4c9-497b-80e9-67b898497d55" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/LionFoodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/LionFoodTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/LionFoodTest.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.LionFoodTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.LionFoodTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/Feline.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/Lion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/Predator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/praktikum/CatTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/praktikum/FelineTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/praktikum/LionManeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/praktikum/LionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Feline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Feline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Lion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/LionManeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/LionManeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/LionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/LionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/Cat.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Cat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/Feline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Feline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/Lion.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Lion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/Feline.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Feline.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/Lion.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Lion.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/LionManeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/LionManeTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/LionManeTest.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/LionManeTest.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/LionTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/LionTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/LionTest.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/LionTest.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/index.source.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.yandex.praktikum.CatTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.yandex.praktikum.CatTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.yandex.praktikum.LionManeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.yandex.praktikum.LionManeTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.yandex.praktikum.LionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.yandex.praktikum.LionTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.yandex.praktikum.CatTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.yandex.praktikum.CatTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.yandex.praktikum.FelineTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.yandex.praktikum.FelineTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.yandex.praktikum.LionManeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.yandex.praktikum.LionManeTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.yandex.praktikum.LionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.yandex.praktikum.LionTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.CatTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.CatTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.LionManeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.LionManeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.LionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.LionTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.CatTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.CatTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.FelineTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.FelineTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.LionManeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.LionManeTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.LionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.LionTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +82,7 @@
       <recent name="com.example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example" />
       <recent name="ru.yandex.praktikum" />
     </key>
   </component>
@@ -89,7 +92,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.LionTest.getKittensTest">
-    <configuration name="LionManeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coverage" />
       <extension name="coverage">
         <pattern>
@@ -98,13 +101,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.LionManeTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.CatTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LionManeTest.getFood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FelineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coverage" />
       <extension name="coverage">
         <pattern>
@@ -113,9 +116,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.LionManeTest" />
-      <option name="METHOD_NAME" value="getFood" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.example.FelineTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LionFoodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coverage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.LionFoodTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,22 +148,6 @@
       <option name="PACKAGE_NAME" value="com.example" />
       <option name="MAIN_CLASS_NAME" value="com.example.LionTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LionTest.getFood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coverage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.LionTest" />
-      <option name="METHOD_NAME" value="getFood" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,9 +183,9 @@
       <list>
         <item itemvalue="JUnit.LionTest.getKittensTest" />
         <item itemvalue="JUnit.LionTest" />
-        <item itemvalue="JUnit.LionManeTest" />
-        <item itemvalue="JUnit.LionManeTest.getFood" />
-        <item itemvalue="JUnit.LionTest.getFood" />
+        <item itemvalue="JUnit.LionFoodTest" />
+        <item itemvalue="JUnit.FelineTest" />
+        <item itemvalue="JUnit.CatTest" />
       </list>
     </recent_temporary>
   </component>

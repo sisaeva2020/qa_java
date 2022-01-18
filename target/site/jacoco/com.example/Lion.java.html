@@ -7,8 +7,8 @@ public class Lion {
     boolean hasMane;
     private Feline feline;
 
-<span class="fc" id="L10">    public Lion(String sex, Feline feline) throws Exception {</span>
-<span class="fc" id="L11">        this.feline = feline;</span>
+<span class="fc" id="L10">    public Lion(String sex) throws Exception {</span>
+
 
 <span class="fc bfc" id="L13" title="All 2 branches covered.">        if (&quot;Самец&quot;.equals(sex)) {</span>
 <span class="fc" id="L14">            hasMane = true;</span>
@@ -19,18 +19,24 @@ public class Lion {
         }
 
 <span class="fc" id="L21">    }</span>
+<span class="fc" id="L22">    public Lion(Feline feline) {</span>
 
-    public int getKitty(int kittensCount) {
+<span class="fc" id="L24">        this.feline = feline;</span>
+<span class="fc" id="L25">    }</span>
 
-<span class="fc" id="L25">        return kittensCount;</span>
+
+    public int getKittens() {
+
+<span class="fc" id="L30">        return getKittens(2);</span>
     }
+<span class="fc" id="L32">    public int getKittens(int kittensCount) { return kittensCount; }</span>
 
     public boolean doesHaveMane() {
-<span class="fc" id="L29">        return hasMane;</span>
+<span class="fc" id="L35">        return hasMane;</span>
     }
 
     public List&lt;String&gt; getFood(String animalKind) throws Exception {
-<span class="fc" id="L33">        return feline.getFood(&quot;Хищник&quot;);</span>
+<span class="fc" id="L39">        return feline.getFood(&quot;Хищник&quot;);</span>
     }
 
 }

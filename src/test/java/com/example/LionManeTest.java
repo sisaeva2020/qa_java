@@ -3,8 +3,6 @@ package com.example;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-
-import static com.example.Animal.foodExpected;
 import static org.junit.Assert.*;
 
 
@@ -31,15 +29,9 @@ public class LionManeTest {
 
     @Test
     public void doesLionHasMane() throws Exception {
-        Lion lionSex = new Lion(sex, feline);
+        Lion lionSex = new Lion(sex);
         assertEquals(expectedResult, lionSex.doesHaveMane());
     }
 
-    @Test
-    public void getFood() throws Exception {
-        Feline feline = new Feline();
-        Lion hungryLion = new Lion(sex, feline);
-        assertEquals(foodExpected, hungryLion.getFood("Хищник"));
 
-    }
 }

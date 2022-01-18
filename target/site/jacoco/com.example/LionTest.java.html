@@ -2,32 +2,17 @@
 
 
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.Mock;
-import org.mockito.Mockito;
-import org.mockito.junit.MockitoJUnitRunner;
-
-
-import static com.example.Animal.foodExpected;
 import static org.junit.Assert.assertEquals;
 
 
-
-@RunWith(MockitoJUnitRunner.class)
-<span class="fc" id="L17">public class LionTest {</span>
-
-
-    @Mock
-    Feline feline;
+<span class="fc" id="L8">public class LionTest {</span>
 
     @Test
     public void getKittensTest() throws Exception {
-<span class="fc" id="L25">        int expectedResult = 3;</span>
-<span class="fc" id="L26">        Mockito.when(feline.getKittens()).thenReturn(expectedResult);</span>
-<span class="fc" id="L27">        Lion lion = new Lion(&quot;Самка&quot;, feline);</span>
-<span class="fc" id="L28">        int actualResult = lion.getKitty(feline.getKittens());</span>
-<span class="fc" id="L29">        assertEquals(expectedResult, actualResult);</span>
-<span class="fc" id="L30">        }</span>
+<span class="fc" id="L12">        Feline feline = new Feline();</span>
+<span class="fc" id="L13">        Lion lion = new Lion(feline);</span>
+<span class="fc" id="L14">        assertEquals(2, lion.getKittens());</span>
+<span class="fc" id="L15">        }</span>
 
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
