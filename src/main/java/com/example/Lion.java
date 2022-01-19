@@ -27,11 +27,11 @@ public class Lion {
 
     public int getKittens() {
 
-        return getKittens(2);
+        return feline.getKittens();
     }
-    public int getKittens(int kittensCount) { return kittensCount; }
 
     public boolean doesHaveMane() {
+
         return hasMane;
     }
 

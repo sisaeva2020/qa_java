@@ -25,7 +25,7 @@ public class LionFoodTest {
         List lionFoodExpected = Arrays.asList("Животные", "Птички", "Рыбки");
         Mockito.when(feline.getFood("Хищник")).thenReturn(lionFoodExpected);
         Lion hungryLion = new Lion(feline);
-        assertEquals(lionFoodExpected, hungryLion.getFood("Травоядное"));
+        assertEquals(lionFoodExpected, hungryLion.getFood("Хищник"));
 
     }
 

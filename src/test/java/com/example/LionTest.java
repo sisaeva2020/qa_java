@@ -2,16 +2,23 @@ package com.example;
 
 
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.mockito.junit.MockitoJUnitRunner;
+
 import static org.junit.Assert.assertEquals;
 
-
+@RunWith(MockitoJUnitRunner.class)
 public class LionTest {
+    @Mock
+    Feline feline;
 
     @Test
     public void getKittensTest() throws Exception {
-        Feline feline = new Feline();
-        Lion lion = new Lion(feline);
-        assertEquals(2, lion.getKittens());
+        Mockito.when(feline.getKittens()).thenReturn(2);
+        Lion Lion = new Lion(feline);
+        assertEquals(2, Lion.getKittens());
         }
 
 }
