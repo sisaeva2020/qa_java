@@ -1,8 +1,10 @@
 package com.example;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class Animal {
+    public static List<String> foodExpected = Arrays.asList("Животные", "Птицы", "Рыба");
 
     public List<String> getFood(String animalKind) throws Exception {
         if ("Травоядное".equals(animalKind)) {
